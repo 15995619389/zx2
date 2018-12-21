@@ -1,0 +1,205 @@
+.wrap{
+    background: #f1f1f1;
+    padding: 20px 0 30px 0;
+}
+.password_find{
+    margin: 0 auto;
+    width: 1000px;
+    padding: 50px;
+    border: 1px solid #cacaca;
+    background: #fff;
+}
+.step {
+    margin: 50px 0;
+}
+.step li {
+    float: left;
+    display: inline;
+    width: 25%;
+    border-top: #949494 4px solid;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+.step li.cur {
+    border-top-color: #ff9342;
+}
+.step_item {
+    top: -18px;
+    position: relative;
+    font-size: 14px;
+    display: block;
+}
+.step_item,.step i{
+    text-align: center
+}
+.step li .cur .step_item, .step li.cur i {
+    color: #ff9342;
+}
+.step li.cur i {
+    border-color: #ff9342;
+}
+.step i {
+    margin: 0 auto 15px;
+    display: block;
+    height: 26px;
+    width: 26px;
+    background: #f1f1f1;
+    border: 2px solid #949494;
+    border-radius: 15px;
+    color: #949494;
+    font: 16px/26px microsoft yahei;
+}
+.step:after {
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.form:after, .row:after, .step:after {
+    clear: both;
+    content: '';
+    overflow: hidden;
+}
+
+.password_find .bd {
+    margin: 0 auto;
+    width: 404px;
+    padding-top: 50px;
+}
+.password_find .yz_method {
+    width: 100%;
+}
+.yz_method h4 {
+    font-size: 16px;
+}
+.form, .row {
+    position: relative;
+}
+.password_find .row {
+    margin-bottom: 30px;
+}
+.row {
+    line-height: 50px;
+    margin-bottom: 30px;
+    padding-left: 100px;
+}
+.row label {
+    float: left;
+    margin-left: -90px;
+    width: 90px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.password_find .QapTcha .TxtStatus, .password_find .row label {
+    line-height: 50px;
+}
+.password_find .input_txt[type=text], .password_find .input_txt[type=password] {
+    border: 1px solid #c9caca;
+    height: 10px;
+    line-height: 30px;
+    padding: 10px;
+    border-radius: 3px;
+    width: 280px;
+}
+.input_txt[type=text], .input_txt[type=password] {
+    border: 1px solid #c9caca;
+    height: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    width: 280px;
+    font: 14px/30px microsoft yahei;
+    box-shadow: none;
+}
+.password_find .btns_submit {
+    margin-top: 50px;
+}
+.password_find .col_org {
+    background: #ff9342;
+}
+.bind .QapTcha, .bind .QapTcha .Slider, .submit, .yz_bar_box {
+    height: 50px;
+}
+.submit {
+    background: #0c4ca3;
+    color: #fff;
+    font: 800 16px/50px microsoft yahei;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.ewm .get_ewm, .submit {
+    text-align: center;
+    cursor: pointer;
+}
+.agree, .feed_con, .feed_tab, .method_item, .reg_box .hd h3, .ser_box, .set_mes_tip b, .step:after {
+    overflow: hidden;
+}
+/*  */
+.method_item {
+    border: 1px solid #c9caca;
+    margin-top: 40px;
+    padding: 20px 20px 20px 100px;
+    min-height: 60px;
+    font-size: 14px;
+    position: relative;
+}
+.method_item i {
+    float: left;
+    margin-left: -70px;
+}
+
+QapTcha .Slider, .QapTcha .SliderSuccess, .icon_m_ems, .icon_m_tel, .icon_scan, .icon_ser, .icon_succ {
+    background: url('../images/un_icon.png') no-repeat;
+}
+.icon_m_tel {
+    display: inline-block;
+    background-position: -118px -240px;
+    width: 40px;
+    height: 60px;
+}
+.method_item h5, .yz_m_btn {
+    font-size: 16px;
+}
+em, i {
+    font-style: normal;
+}
+.yz_m_btn {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    background: #0c4ca3;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    width: 100px;
+    border-radius: 3px;
+    text-align: center
+}
+/*  */
+.ewm {
+    margin-right: 100px;
+}
+.password_find .ewm .get_ewm {
+    height: 32px;
+    line-height: 32px;
+    border-radius: 3px;
+}
+.ewm .get_ewm {
+    position: absolute;
+    top: 10px;
+    right: -100px;
+    height: 35px;
+    width: 115px;
+    background: #0c4ca3;
+    color: #fff;
+    font-size: 14px;
+}
+.password_find .ewm .input_txt[type=text] {
+    width: 160px;
+}
+.ewm .get_ewm, .submit {
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,142 @@
+@charset "utf-8";
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button { margin:0; padding:0; }
+html { background-color:#fff; position: relative}
+body { background-color:#fff; font:14px/1.5 Microsoft YaHei,Helvetica,Verdana,sans-serif; color:#595757;position: relative }
+img, fieldset { margin:0; padding:0; border:0; }
+input, textarea {font-size:14px;}
+table { border-collapse:collapse; }
+a { color:#000; text-decoration:none; outline:none; cursor: pointer;}
+a:hover { color: #0c4ca3; }
+ul li, ol li { list-style:none; }
+/* 公共樣式圖片 */
+.logo, .slogan, .home, .about, .member i, .course-model ul li .cmod-left i, .hot-declate, .promise-warp i, .foot-main i, .side-float i, .search-form .glass {
+    background: url('../images/combg.png') no-repeat;
+    display: inline-block;
+}
+.a-container{
+    background: #f1f1f1
+}
+.ab-main {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.ab-main .navigation {
+    background: #E7E7E7;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.navt-cur {
+    color: #2963CA;
+}
+.ac-right {
+    width: 858px;
+    background: #fff;
+    float: right;
+    padding: 13px;
+    box-sizing: border-box;
+}
+.member-wp {
+    padding: 0;
+    background: none;
+}
+.member-wp .mb-model {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+/* 弹窗 */
+.popupBox{
+    position: fixed;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    z-index: 99; 
+    display: flex;align-items: center;
+    justify-content: center     
+}
+#mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6; 
+}
+.pop{
+    width: 520px;
+    z-index: 99;
+    background: #fff;
+    position: relative;
+}
+.pop_tit {
+    overflow: hidden;
+    background: #326CD1;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+    color: #fff;
+}
+.pop .a_close {
+    background-position: 4px -238px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    line-height: 40px;
+    width: 44px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+}
+/* 会员中心common */
+.meb-tit {
+    width: 100%;
+    background: #326CD1;
+    overflow: hidden;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.meb-tit h3 {
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1.25px;
+    line-height: 50px;
+    font-weight: normal;
+}
+.meb-tit i {
+    background: url('../images/combg.png');
+    display: inline-block;
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin-right: 3px;
+    margin-top: 8px;
+}
+/**/
+.c-container {
+    background: #f1f1f1;
+    padding: 0;
+    width: 100%;
+}
+.c-container .ceping-wrap {
+    background: #fff;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 33;
+    position: relative;
+    top: -100px;
+    overflow: hidden;
+}
