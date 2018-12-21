@@ -18,6 +18,9 @@ Vue.config.productionTip = false;
 Vue.use(VueWechatTitle);
 Vue.use(htmlToPdf);
 
+// // api 数据
+// "token_url":"http://zx2sso.techina2025.com/connect/token"
+// "Api_Url":"http://zxapi.techina2025.com"
 
 // 请求绑定在vue上面，以便使用
  const instance = axios.create({
